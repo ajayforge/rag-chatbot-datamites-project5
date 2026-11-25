@@ -1,0 +1,10 @@
+,k=2,k=4,k=6,k=8
+vector | chunk=500 (569 chunks),0.3,0.3,0.3,0.3
+keyword | chunk=500 (569 chunks),0.4,0.4,0.5,0.5
+hybrid | chunk=500 (569 chunks),0.3,0.4,0.5,0.5
+vector | chunk=1000 (293 chunks),0.2,0.3,0.3,0.3
+keyword | chunk=1000 (293 chunks),0.6,0.6,0.7,0.7
+hybrid | chunk=1000 (293 chunks),0.4,0.4,0.4,0.5
+vector | chunk=1500 (202 chunks),0.1,0.2,0.3,0.4
+keyword | chunk=1500 (202 chunks),0.6,0.9,0.9,0.9
+hybrid | chunk=1500 (202 chunks),0.4,0.6,0.8,0.9

@@ -1,0 +1,203 @@
+chunk_id,source,page,n_chars,preview
+0,2005.11401v4.pdf,1,1494,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks Patrick Lewis†‡
+1,2005.11401v4.pdf,1,1494,"accessed with a pre-trained neural retriever. We com- pare two RAG formulations,"
+2,2005.11401v4.pdf,1,213,"interpreted. REALM [ 20] and ORQA [ 31], two recently introduced models that com"
+3,2005.11401v4.pdf,2,1492,The Divine Comedy (x) q Query Encoder q(x) MIPS pθ Generator pθ (Parametric) Mar
+4,2005.11401v4.pdf,2,1495,we refer to as retrieval-augmented generation (RAG). We build RAG models where t
+5,2005.11401v4.pdf,2,1498,"by using pre-trained access mechanisms, the ability to access knowledge is prese"
+6,2005.11401v4.pdf,2,501,"in Figure 1, our models leverage two components: (i) a retriever pη(z|x) with pa"
+7,2005.11401v4.pdf,3,1499,byθ that generates a current token based on a context of the previousi− 1 tokens
+8,2005.11401v4.pdf,3,1496,token and marginalize accordingly. This allows the generator to choose content f
+9,2005.11401v4.pdf,3,945,which contain answers to TriviaQA [24] questions and Natural Questions [29]. We 
+10,2005.11401v4.pdf,4,1498,"minimize the negative marginal log-likelihood of each target,∑j− logp(yj|xj) usi"
+11,2005.11401v4.pdf,4,1497,withpη(z|x) and then sum the probabilities across beams for the marginals. We re
+12,2005.11401v4.pdf,4,1491,application and common testbed for knowledge-intensive tasks [20]. We treat ques
+13,2005.11401v4.pdf,5,1492,MSMARCO as an open-domain abstractive QA task. MSMARCO has some questions that c
+14,2005.11401v4.pdf,5,1492,"comparison. Following [67], we evaluate using the SQuAD-tuned Q-BLEU-1 metric [ "
+15,2005.11401v4.pdf,5,1499,to handle classification rather than generation. We map FEVER class labels (supp
+16,2005.11401v4.pdf,5,516,"system, which uses a BERT-based “cross- encoder” to re-rank documents, along wit"
+17,2005.11401v4.pdf,6,1497,"Table 1: Open-Domain QA Test Scores. For TQA, left column uses the standard test"
+18,2005.11401v4.pdf,6,1495,"to generate the reference answer , (ii) many questions are unanswerable without "
+19,2005.11401v4.pdf,6,1416,"is high for document 2 which mentions “The Sun Also Rises”. Similarly, document "
+20,2005.11401v4.pdf,7,1500,Document 1: his works are considered classics of American literature ... His war
+21,2005.11401v4.pdf,7,1494,sterling. Jeopardy Question Gener -ation Washington BART ?This state has the lar
+22,2005.11401v4.pdf,7,1496,"Following recent work on diversity-promoting decoding [33, 59, 39], we also inve"
+23,2005.11401v4.pdf,7,281,"their behavior as the world changes. To demonstrate, we build an index using the"
+24,2005.11401v4.pdf,8,1500,Table 4: Human assessments for the Jeopardy Question Generation Task. Factuality
+25,2005.11401v4.pdf,8,1498,world knowledge by simply replacing its non-parametric memory. Effect of Retriev
+26,2005.11401v4.pdf,8,400,"29], fact checking [ 56], fact completion [ 48], long-form question answering [ "
+27,2005.11401v4.pdf,9,1497,General-Purpose Architectures for NLP Prior work on general-purpose architecture
+28,2005.11401v4.pdf,9,1488,"techniques to achieve strong performance on a single task, while we show that a "
+29,2005.11401v4.pdf,9,1426,have proved successful in a number of domains including Machine Translation [ 18
+30,2005.11401v4.pdf,10,1497,Broader Impact This work offers several positive societal benefits over previous
+31,2005.11401v4.pdf,10,1492,"and constructive feedback on this paper, as well as HuggingFace for their help i"
+32,2005.11401v4.pdf,10,1071,"D13-1160. [4] Bin Bi, Chenliang Li, Chen Wu, Ming Yan, and Wei Wang. Palm: Pre-t"
+33,2005.11401v4.pdf,11,1492,[7] Christopher Clark and Matt Gardner. Simple and Effective Multi-Paragraph Rea
+34,2005.11401v4.pdf,11,1495,Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+35,2005.11401v4.pdf,11,1073,"John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. When will AI exceed "
+36,2005.11401v4.pdf,12,1491,"[20] Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. RE"
+37,2005.11401v4.pdf,12,1498,for Reading Comprehension. In Proceedings of the 55th Annual Meeting of the Asso
+38,2005.11401v4.pdf,12,1293,"on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Confe"
+39,2005.11401v4.pdf,13,1497,"for Computational Linguistics, pages 6086–6096, Florence, Italy, July 2019. Asso"
+40,2005.11401v4.pdf,13,1476,Proceedings of the 57th Annual Meeting of the Association for Computational Ling
+41,2005.11401v4.pdf,13,1332,"Elsen, David Garcia, Boris Ginsburg, Michael Houston, Oleksii Kuchaiev, Ganesh V"
+42,2005.11401v4.pdf,14,1500,approaches 2016 co-located with the 30th Annual Conference on Neural Information
+43,2005.11401v4.pdf,14,1495,"URL https://www.aclweb.org/anthology/D19-1244. [47] Fabio Petroni, Tim Rocktäsch"
+44,2005.11401v4.pdf,14,1260,"[51] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Mic"
+45,2005.11401v4.pdf,15,1494,"[56] James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mitta"
+46,2005.11401v4.pdf,15,1498,"Conference on Artificial Intelligence, 2018. URL https://www.aaai.org/ocs/index."
+47,2005.11401v4.pdf,15,1314,"Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intellig"
+48,2005.11401v4.pdf,16,1135,"[66] Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue"
+49,2005.11401v4.pdf,17,1499,Appendices for Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks 
+50,2005.11401v4.pdf,17,1203,of the annotators. Two annotators did not perform well on these examples and the
+51,2005.11401v4.pdf,18,1497,"D Further Details on Open-Domain QA For open-domain QA, multiple answer annotati"
+52,2005.11401v4.pdf,18,1488,a whitespace. TriviaQA Evaluation setups The open-domain QA community customaril
+53,2005.11401v4.pdf,18,1491,"Info"", which is the task we explore in the main paper. FEVER’s other sub-task in"
+54,2005.11401v4.pdf,18,225,"BERT-base query and document encoder of DPR, with 110M parameters each (although"
+55,2005.11401v4.pdf,19,1498,Table 7: Number of instances in the datasets used. *A hidden subset of this data
+56,2005.11401v4.pdf,19,609,"once retrieval had collapsed, the generator would learn to ignore the documents,"
+57,2312.10997v5.pdf,1,1497,"Retrieval-Augmented Generation for Large Language Models: A Survey Yunfan Gaoa, "
+58,2312.10997v5.pdf,1,1473,augmentation techniques. The paper highlights the state-of-the- art technologies
+59,2312.10997v5.pdf,1,1498,"applica- tions. RAG technology has rapidly developed in recent years, and the te"
+60,2312.10997v5.pdf,1,1427,fill this gap by mapping out the RAG process and charting its evolution and anti
+61,2312.10997v5.pdf,2,1499,Fig. 1. Technology tree of RAG research. The stages of involving RAG mainly incl
+62,2312.10997v5.pdf,2,1497,and current paradigms of RAG. The following three sections explore core componen
+63,2312.10997v5.pdf,2,376,showed in Figure 3. Despite RAG method are cost-effective and surpass the perfor
+64,2312.10997v5.pdf,3,1500,Fig. 2. A representative instance of the RAG process applied to question answeri
+65,2312.10997v5.pdf,3,1496,and the vector of chunks within the indexed corpus. The system prioritizes and r
+66,2312.10997v5.pdf,3,1248,Augmentation Hurdles . Integrating retrieved information with the different task
+67,2312.10997v5.pdf,4,1500,Fig. 3. Comparison between the three paradigms of RAG. (Left) Naive RAG mainly c
+68,2312.10997v5.pdf,4,1494,to integrate it effectively with the query. The main methods in post-retrieval p
+69,2312.10997v5.pdf,4,860,"Modular RAG builds upon the foundational principles of Advanced and Naive RAG, i"
+70,2312.10997v5.pdf,5,1495,aligns the text more closely with data distribution through iter- ative self-enh
+71,2312.10997v5.pdf,5,1499,tasks. Innovations such as the Rewrite-Retrieve-Read [7]model leverage the LLM’s
+72,2312.10997v5.pdf,5,1494,the necessity of retrieval based on different scenarios. Another benefit of a fl
+73,2312.10997v5.pdf,5,1499,by offering real- time knowledge updates and effective utilization of external k
+74,2312.10997v5.pdf,5,958,multiple iterations to achieve satisfactory results. III. R ETRIEVAL In the cont
+75,2312.10997v5.pdf,6,1500,TABLE I SUMMARY OF RAG METHODS Method Retrieval Source RetrievalData Type Retrie
+76,2312.10997v5.pdf,6,1494,Text Chunk Tuning Once RA-e2e [46] Dataset-base Text Chunk Tuning Once PROMPTAGA
+77,2312.10997v5.pdf,6,1264,Text Chunk Inference Iterative Retrieve-and-Sample [65] Dataset-base Text Doc Tu
+78,2312.10997v5.pdf,7,1494,Fig. 4. RAG compared with other model optimization methods in the aspects of “Ex
+79,2312.10997v5.pdf,7,1491,incorporating tables into the data can complicate semantic similarity searches. 
+80,2312.10997v5.pdf,7,1496,"it requires additional effort to build, validate, and maintain structured databa"
+81,2312.10997v5.pdf,8,1494,the appropriate retrieval granularity during inference can be a simple and effec
+82,2312.10997v5.pdf,8,1499,"more context, but they also generate more noise, requiring longer processing tim"
+83,2312.10997v5.pdf,8,1499,"This method is also known as Reverse HyDE. Specifically, using LLM to generate q"
+84,2312.10997v5.pdf,8,1499,"responses, thus improving the overall efficiency of the RAG system. To capture t"
+85,2312.10997v5.pdf,8,886,"any lack of specific nuances, thereby ensuring the optimal relevance of the gene"
+86,2312.10997v5.pdf,9,1490,2) Query Transformation: The core concept is to retrieve chunks based on a trans
+87,2312.10997v5.pdf,9,1499,"pipeline,which is suitable for a versatile RAG system designed to accommodate di"
+88,2312.10997v5.pdf,9,1491,"However, some specific models are better suited for particular use cases. 1) Mix"
+89,2312.10997v5.pdf,9,1492,"of LLM as the supervision signal for fine-tuning, known as LSR (LM-supervised Re"
+90,2312.10997v5.pdf,9,954,"from limited local computational resources. Consequently, some approaches opt to"
+91,2312.10997v5.pdf,10,1499,introduces an innovative method for integrating knowledge into white-box models 
+92,2312.10997v5.pdf,10,1495,"rule-based methods that depend on predefined metrics like Diversity, Relevance, "
+93,2312.10997v5.pdf,10,1498,encoder undergoes training using contrastive loss throughout this process [102] 
+94,2312.10997v5.pdf,10,1495,"adjust the model’s input and output. For example, it can enable LLM to adapt to "
+95,2312.10997v5.pdf,10,567,"involves a singular (once) retrieval step followed by generation, which can lead"
+96,2312.10997v5.pdf,11,1498,"Fig. 5. In addition to the most common once retrieval, RAG also includes three t"
+97,2312.10997v5.pdf,11,1496,which in turn facilitates the generation of improved responses in subsequent ite
+98,2312.10997v5.pdf,11,1494,"PDF before performing a retrieval based on this summary. Subsequently, a seconda"
+99,2312.10997v5.pdf,11,248,"engine queries, browsing results, and citing references, thereby expanding GPT-3"
+100,2312.10997v5.pdf,12,1496,probability of generated terms [24]. When the probability falls below a certain 
+101,2312.10997v5.pdf,12,1495,models across diverse application scenarios.This chapter will mainly introduce t
+102,2312.10997v5.pdf,12,1498,of RAG models.The main evaluation objectives include: Retrieval Quality. Evaluat
+103,2312.10997v5.pdf,12,1494,retrieval and generation. 1) Quality Scores: Quality scores include context rele
+104,2312.10997v5.pdf,12,651,documents do not contain the necessary knowledge to answer a question. Informati
+105,2312.10997v5.pdf,13,1500,TABLE II DOWNSTREAM TASKS AND DATASETS OF RAG Task Sub Task Dataset Method QA Si
+106,2312.10997v5.pdf,13,905,"[39], [40] IE Event Argument Extraction WikiEvent [139] [13], [27], [37], [42] R"
+107,2312.10997v5.pdf,14,1494,TABLE III SUMMARY OF METRICS APPLICABLE FOR EVALUATION ASPECTS OF RAG Context Re
+108,2312.10997v5.pdf,14,1489,collectively form a robust framework for the systematic evaluation of RAG models
+109,2312.10997v5.pdf,14,1492,"process is observable, while generation solely relying on long context remains a"
+110,2312.10997v5.pdf,14,315,further research and exploration into the robustness of RAG. C. Hybrid Approache
+111,2312.10997v5.pdf,15,1498,TABLE IV SUMMARY OF EVALUATION FRAMEWORKS Evaluation Framework Evaluation Target
+112,2312.10997v5.pdf,15,1497,to assess the overall quality of the retrieved docu- ments for a query and trigg
+113,2312.10997v5.pdf,15,1212,"emergence of ChatGPT, providing extensive RAG- related APIs and becoming essenti"
+114,2312.10997v5.pdf,16,1494,Fig. 6. Summary of RAG ecosystem initial learning curve. 3) Specialization - opt
+115,2312.10997v5.pdf,16,1495,and stitches together audio clips to convert machine-translated data into speech
+116,2312.10997v5.pdf,16,945,extensive non-parameterized data from external knowledge bases. The survey showc
+117,2312.10997v5.pdf,17,1497,The growing ecosystem of RAG is evidenced by the rise in RAG-centric AI applicat
+118,2312.10997v5.pdf,17,1495,"A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Milli- can, G. B. Van Den Drie"
+119,2312.10997v5.pdf,17,1499,"labels,” arXiv preprint arXiv:2212.10496 , 2022. [12] V . Blagojevi, “Enhancing "
+120,2312.10997v5.pdf,17,1499,"effective method by retrieving from training data,” arXiv preprint arXiv:2203.08"
+121,2312.10997v5.pdf,17,1488,"preprint arXiv:2310.11511 , 2023. [26] Z. Ke, W. Kong, C. Li, M. Zhang, Q. Mei, "
+122,2312.10997v5.pdf,17,1498,"tasks,”arXiv preprint arXiv:2305.17653, 2023. [34] Z. Wang, J. Araki, Z. Jiang, "
+123,2312.10997v5.pdf,17,457,"arXiv:2312.05708 , 2023. [42] G. Izacard, P. Lewis, M. Lomeli, L. Hosseini, F. P"
+124,2312.10997v5.pdf,18,1497,"[44] B. Wang, W. Ping, P. Xu, L. McAfee, Z. Liu, M. Shoeybi, Y . Dong, O. Kuchai"
+125,2312.10997v5.pdf,18,1497,"language models,” arXiv preprint arXiv:2311.09210, 2023. [51] S. Xu, L. Pang, H."
+126,2312.10997v5.pdf,18,1496,"generation,” arXiv preprint arXiv:2312.11361 , 2023. [57] G. Kim, S. Kim, B. Jeo"
+127,2312.10997v5.pdf,18,1482,"retrieval,” arXiv preprint arXiv:2401.18059 , 2024. [64] O. Ram, Y . Levine, I. "
+128,2312.10997v5.pdf,18,1497,"zero-shot query likelihood models for document ranking,” arXiv preprint arXiv:23"
+129,2312.10997v5.pdf,18,1497,"dialogue generation,” arXiv preprint arXiv:2305.18846 , 2023. [78] W. Shen, Y . "
+130,2312.10997v5.pdf,18,940,"2024. [85] L. Zha, J. Zhou, L. Li, R. Wang, Q. Huang, S. Yang, J. Yuan, C. Su, X"
+131,2312.10997v5.pdf,19,1494,"[89] Langchain, “Recursively split by character,” https://python.langchain. com/"
+132,2312.10997v5.pdf,19,1492,"F. Liu, K. Lin, J. Hewitt, A. Paranjape, M. Bevilacqua, F. Petroni, and P. Liang"
+133,2312.10997v5.pdf,19,1499,"A. Sun, “Large language model is not a good few-shot information extractor, but "
+134,2312.10997v5.pdf,19,1497,"J. Wu, L. Ouyang, C. Kim, C. Hesse, S. Jain, V . Kosaraju, W. Saunders et al., “"
+135,2312.10997v5.pdf,19,1497,models: Investigating effectiveness and limitations of parametric and non-parame
+136,2312.10997v5.pdf,19,1499,"J. Canny, and I. Fischer, “A human- inspired reading agent with gist memory of v"
+137,2312.10997v5.pdf,19,803,", “Quality: Question an- swering with long input texts, yes!” arXiv preprint arX"
+138,2312.10997v5.pdf,20,1499,"planner for personalized knowledge-grounded dialogue,” arXiv preprint arXiv:2310"
+139,2312.10997v5.pdf,20,1497,"Inter- national Conference on Language Resources and Evaluation (LREC 2018), 201"
+140,2312.10997v5.pdf,20,1488,"benchmark with implicit reasoning strategies,” Transactions of the Association f"
+141,2312.10997v5.pdf,20,1499,"on Bangla Language Processing (BLP-2023), 2023, pp. 72– 84. [155] X. Li and D. R"
+142,2312.10997v5.pdf,20,1494,"rag applications,” https://www.ai. engineer/summit/schedule/building-production-"
+143,2312.10997v5.pdf,20,1497,", 2023. [169] Y . Lyu, Z. Li, S. Niu, F. Xiong, B. Tang, W. Wang, H. Wu, H. Liu,"
+144,2312.10997v5.pdf,20,984,". PMLR, 2022, pp. 468–485. [176] M. Yasunaga, A. Aghajanyan, W. Shi, R. James, J"
+145,2312.10997v5.pdf,21,516,"[181] A. Yang, A. Nagrani, P. H. Seo, A. Miech, J. Pont-Tuset, I. Laptev, J. Siv"
+146,2405.07437v2.pdf,1,1495,"Evaluation of Retrieval-Augmented Generation: A Survey Hao Yu1,2, Aoran Gan3, Ka"
+147,2405.07437v2.pdf,1,1027,the field of RAG benchmarks. 1 Introduction Retrieval-Augmented Generation (RAG)
+148,2405.07437v2.pdf,2,1500,Numerous studies of RAG systems have emerged from various perspectives since the
+149,2405.07437v2.pdf,2,1062,"the query’s intent and integrate the extracted information [35,9] without furthe"
+150,2405.07437v2.pdf,3,1498,"by the external dynamic database and the various downstream tasks, such as conte"
+151,2405.07437v2.pdf,3,1494,to RAG sys- tems and guide for readers to comprehend the effectiveness of RAG be
+152,2405.07437v2.pdf,3,459,diversity of information sources and the possibility of retrieving misleading or
+153,2405.07437v2.pdf,4,1500,"Generation The generation component, powered by LLMs, produces coherent and cont"
+154,2405.07437v2.pdf,4,1495,"[39,6]. Conclusion Evaluating the target shift from traditional absolute numeric"
+155,2405.07437v2.pdf,4,529,"data constructions in RAG benchmarks. The final module, Metrics, introduces the "
+156,2405.07437v2.pdf,5,1500,Fig. 2: The Target modular of the Auepora. 3.1 Evaluation Target ( What to Evalu
+157,2405.07437v2.pdf,5,843,these EOs with the provided GTs and labels. - Relevance (Response ↔ Query) measu
+158,2405.07437v2.pdf,6,1497,The targets of Retrieval and Generation components are introduced. Table 1 lists
+159,2405.07437v2.pdf,6,1001,"- BLEU, ROUGE-L Benchmark ARES [49] 2023.11 Context Relevance Answer Faithfulnes"
+160,2405.07437v2.pdf,7,1497,"2024. Table 1 portrays this information, where each evaluation criterion is repr"
+161,2405.07437v2.pdf,7,1495,"instance, RAGAs [14] and ARES [49] assess the relevance of retrieval documents, "
+162,2405.07437v2.pdf,7,654,"requirements, such as readability [57,33], toxicity, perplexity [33], etc. For t"
+163,2405.07437v2.pdf,8,1497,"denoising, time-sensitive problem solving, and multi-doc understanding. ReEval ["
+164,2405.07437v2.pdf,8,1040,the drawback of using such datasets can’t solve the challenges in dynamic real-w
+165,2405.07437v2.pdf,9,1499,"In summary, the creation and selection of datasets are crucial for evaluating RA"
+166,2405.07437v2.pdf,9,1495,system’s precision in fetching pertinent information but also its resilience in 
+167,2405.07437v2.pdf,9,431,"following formula is just one format of these metrics, the definition of each me"
+168,2405.07437v2.pdf,10,1499,- Recall at k (Recall@k) is the fraction of relevant instances that have been re
+169,2405.07437v2.pdf,10,1224,"language production, including factual correctness, readability, and user satisf"
+170,2405.07437v2.pdf,11,1494,as arbiters mark a significant progression towards automated and context-respons
+171,2405.07437v2.pdf,11,1496,"em- bedding and produces precision, recall, and F1 scores. Unlike n-gram-based m"
+172,2405.07437v2.pdf,11,522,with human preference. This section delves into the metrics used for evaluating 
+173,2405.07437v2.pdf,12,1495,Diversity evaluates the variety and breadth of information retrieved and generat
+174,2405.07437v2.pdf,12,1490,"retrieved information. 4 Discussion For RAG systems, traditional Question Answer"
+175,2405.07437v2.pdf,12,757,"Regarding datasets, creating a universal dataset was challenging due to the targ"
+176,2405.07437v2.pdf,13,1499,"When it comes to metrics, the use of LLMs as automatic evaluative judges signifi"
+177,2405.07437v2.pdf,13,572,in assessing their performance. Through the proposed A Unified Evaluation Proces
+178,2405.07437v2.pdf,14,1491,"References 1. Balaguer, A., Benara, V ., Cunha, R.L.d.F., Filho, R.d.M.E., Hendr"
+179,2405.07437v2.pdf,14,1494,"on Intelligent Systems and Technology 15(3), 1–45 (2024) 6. Chen, J., Lin, H., H"
+180,2405.07437v2.pdf,14,591,"K., Fan, A., Auli, M., Weston, J.: Wizard of Wikipedia: Knowledge-powered conver"
+181,2405.07437v2.pdf,15,1493,"15. Fisch, A., Talmor, A., Jia, R., Seo, M., Choi, E., Chen, D.: MRQA 2019 share"
+182,2405.07437v2.pdf,15,1499,and Effective Retrieval-Augmented Text Generation. In: Proceedings of the 46th I
+183,2405.07437v2.pdf,15,869,"(2019) 26. Kamalloo, E., Thakur, N., Lassance, C., Ma, X., Yang, J.H., Lin, J.: "
+184,2405.07437v2.pdf,16,1488,answering research. Transactions of the Association for Computational Linguistic
+185,2405.07437v2.pdf,16,1499,"Inc., Red Hook, NY , USA (Dec 2020) 35. Lewis, P., Perez, E., Piktus, A., Petron"
+186,2405.07437v2.pdf,16,1026,"40. Microsoft: Web Search API | Microsoft Bing, https://www.microsoft.com/ en-us"
+187,2405.07437v2.pdf,17,1498,"Goh, G., Gontijo-Lopes, R., Gordon, J., Grafstein, M., Gray, S., Greene, R., Gro"
+188,2405.07437v2.pdf,17,1497,"Pinto, H.P.d.O., Michael, Pokorny, Pokrass, M., Pong, V .H., Powell, T., Power, "
+189,2405.07437v2.pdf,17,1499,"L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., Lowe, R.: T"
+190,2405.07437v2.pdf,17,271,"Language models are unsupervised multitask learners. OpenAI blog 1(8), 9 (2019) "
+191,2405.07437v2.pdf,18,1500,"(2003) 47. Robertson, S., Zaragoza, H., et al.: The probabilistic relevance fram"
+192,2405.07437v2.pdf,18,1498,"54. TruLens: TruLens (2023), https://www.trulens.org/trulens_eval/ getting_start"
+193,2405.07437v2.pdf,18,1098,prompting elicits reasoning in large language models (Jan 2022).https: //doi.org
+194,2405.07437v2.pdf,19,1500,"66. Yu, X., Cheng, H., Liu, X., Roth, D., Gao, J.: ReEval: Automatic hallucinati"
+195,2405.07437v2.pdf,19,1495,for Computational Linguis- tics (V olume 1: Long Papers). pp. 14447–14465. Assoc
+196,2405.07437v2.pdf,19,1006,"2024). https: //doi.org/10.48550/ARXIV.2402.19473 75. Zheng, L., Chiang, W.L., S"
+197,2405.07437v2.pdf,20,1499,A Structure of RAG System A.1 Retrieval Component The retrieval component of RAG
+198,2405.07437v2.pdf,20,1499,potentially returning a more di- verse and semantically relevant set of document
+199,2405.07437v2.pdf,20,377,encodes documents into dense vectors using a pre-trained language model like BER
+200,2405.07437v2.pdf,21,1494,Search This step is responsible for retrieving relevant documents based on a giv
+201,2405.07437v2.pdf,21,1455,"such as the Chain of Thought (CoT) [60], Tree of Thought (ToT) [3], and Self-Not"

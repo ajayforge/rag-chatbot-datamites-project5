@@ -1,0 +1,6 @@
+Python 3.13.9
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Answer LLM: Groq openai/gpt-oss-20b (temperature 0)
+Judge LLM: Groq qwen/qwen3.8-27b
+Chunking: RecursiveCharacterTextSplitter, 1500 characters, 150 overlap
+Retrieval: hybrid (vector + BM25 keyword, reciprocal rank fusion), top-k = 8

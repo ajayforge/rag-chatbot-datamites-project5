@@ -1,0 +1,11 @@
+question,key_phrase,vector_chunk1500_k8,keyword_chunk1500_k8,hybrid_chunk1500_k8
+What is the difference between RAG-Sequence and RAG-Token?,same retrieved document to generate the complete sequence,False,True,True
+Which retriever and which generator does the original RAG model use?,bi-encoder architecture,True,True,True
+How was the Wikipedia knowledge index built in the original RAG paper?,100-word chunks,True,False,True
+What is index hot-swapping in RAG?,index hot-swapping,False,True,True
+What are the three paradigms of RAG described in the RAG survey for large language models?,"the advanced rag, and the modular rag",False,True,True
+What are the steps of the Naive RAG process?,retrieve-read,False,True,True
+How does Advanced RAG improve on Naive RAG?,sliding window approach,False,True,True
+"What is the ""lost in the middle"" problem?",lost in the middle,True,True,True
+What four abilities are used to evaluate RAG models?,"information integration, and counterfactual robustness",False,True,False
+What is Auepora?,auepora,True,True,True

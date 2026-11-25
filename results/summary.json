@@ -1,0 +1,24 @@
+{
+  "faithfulness": {
+    "score": 0.883,
+    "target": 0.85,
+    "met": true,
+    "status": "MET",
+    "questions_scored": 10,
+    "questions_total": 10
+  },
+  "answer_relevancy": {
+    "score": 0.813,
+    "target": 0.8,
+    "met": true,
+    "status": "MET",
+    "questions_scored": 10,
+    "questions_total": 10
+  },
+  "abstention_rate": 1.0,
+  "abstention_questions_tested": 4,
+  "retrieval_mode": "hybrid",
+  "answer_model": "openai/gpt-oss-20b",
+  "judge_model": "qwen/qwen3.8-27b",
+  "retrieval_hit_rate_default": 0.9
+}
