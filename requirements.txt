@@ -1,0 +1,15 @@
+langchain-community
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+langchain-groq
+chromadb
+sentence-transformers
+pypdf
+ragas<1.0
+datasets
+pandas
+numpy
+rank-bm25
+streamlit
+ipykernel
